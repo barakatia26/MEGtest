@@ -10,6 +10,9 @@ disp (sub_list(i).name);
 
 delete dataorig.mat FreqAnalysis.mat FrqAnalysisNew.mat Conditions.mat
 
+a=100;
+
+
 timewin = 1; %input ('Set time window (Seconds):');
 sampwin=1017.25*timewin;
 ovrlp=1017.25*timewin/2;
